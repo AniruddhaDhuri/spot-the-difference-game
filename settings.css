@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #eef2f3;
+  padding: 20px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+}
+
+.image-container img {
+  max-width: 400px;
+  border: 2px solid #444;
+}
+
+.image-container canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: crosshair;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: #007BFF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
